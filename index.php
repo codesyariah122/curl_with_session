@@ -1,3 +1,5 @@
+<?php
+
 $url = "https://bla-bla.com";
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
